@@ -1,10 +1,10 @@
 ---
 description: ''
 sidebar: 'docs'
-next: '/docs/installation/'
+next: '/website/writing/'
 ---
 
-# Intro
+# Overview
 To contribute to this website, whitepaper and / or blog checkout Gridsome and the following introduction.
 
 Gridsome is a static site generator, which outputs plain html files and has other great features like image processing and lazy-loading. After Serving the initial html, Gridsome site turn into a snappy single page application.
@@ -30,7 +30,3 @@ The most inportant colors are defined in the `src/layouts/Default.vue` file at t
   --color-ui-primary: theme('colors.orange.600');
 }
 ```
-
-### Contribute
-
-If you find any spelling mistakes or have improvements to offer, we welcome anyone who has ideas and wants to contribute to the core protocol.

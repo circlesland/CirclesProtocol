@@ -24,21 +24,24 @@ module.exports = {
     sidebar: [{
       name: 'docs',
       sections: [{
-        title: 'Whitepaper',
-        items: [
-          '/docs/',
-        ]
-      }, {
-        title: 'Contribute To Docs',
-        items: [
-          '/docs/intro/',
-          '/docs/installation/',
-          '/docs/writing-content/',
-          '/docs/deploying/',
-          '/docs/settings/',
-          '/docs/sidebar/',
-        ]
-      }]
+          title: 'Whitepaper',
+          items: [
+            '/docs/',
+          ]
+        },
+        {
+          title: "Tutorials",
+          items: ["/tutorials/tutorial1/"],
+        },
+        {
+          title: "Development",
+          items: ["/dev/overview/", "/dev/core/", "/dev/contracts/"],
+        },
+        {
+          title: "Contribute to Docs",
+          items: ["/website/intro/", "/website/writing/", "/website/development/"],
+        }
+      ]
     }]
   },
   plugins: [{

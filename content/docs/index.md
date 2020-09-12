@@ -1,14 +1,12 @@
 ---
-description: ''
-sidebar: 'docs'
-next: '/docs/intro/'
+description: ""
+sidebar: "docs"
+next: "/tutorials/tutorial1/"
 ---
 
 # Circles Protocol
 
-*A decentralised Universal Basic Income platform based on personal currencies*
-
-**https://joincircles.net**
+_A decentralised Universal Basic Income protocol based on personal currencies_
 
 ## Abstract
 
@@ -28,7 +26,7 @@ Circles proposes to be the blockchain's native UBI money system. It has its own 
 
 Circles is a money system that is made up of individual currencies. These currencies work together to form a unified “monetary fabric” that behaves like a Universal Basic Income.
 
-When a new blockchain account joins Circles, the system creates and assigns them a unique currency via a smart contract. This is called a *Personal Currency*, and all personal currencies operate according to a shared set of rules.
+When a new blockchain account joins Circles, the system creates and assigns them a unique currency via a smart contract. This is called a _Personal Currency_, and all personal currencies operate according to a shared set of rules.
 
 Each personal currency continuously mints new coins and awards them to its associated person. Moreover, the amount of coins minted is inflating every year. This is the only way that new money is created in Circles and forms the basis of its UBI characteristics. All currencies mint new coins at the same rate, meaning that new money is co-produced and distributed equally to all members of the system at all times.
 
@@ -137,7 +135,7 @@ Alice can now only spend money with Bob
 
 ![Trust limits](https://handbook.joincircles.net/assets/diagram_4.png)
 
-In the example above, Alice needs a way to acknowledge that BobCoin is real money, while limiting her exposure to it while Bob is still new. Circles achieves this with Trust Limits. When you create a trust relationship in Circles, you have the option to include the maximum amount of your total coins you are willing to hold in another user’s currency.  A trust limit is expressed as a percentage.. With trust limits, Alice is able to help Bob integrate into the system in a more controlled way:
+In the example above, Alice needs a way to acknowledge that BobCoin is real money, while limiting her exposure to it while Bob is still new. Circles achieves this with Trust Limits. When you create a trust relationship in Circles, you have the option to include the maximum amount of your total coins you are willing to hold in another user’s currency. A trust limit is expressed as a percentage.. With trust limits, Alice is able to help Bob integrate into the system in a more controlled way:
 
 ```
 25 people trust AliceCoin
