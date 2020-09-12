@@ -5,20 +5,20 @@
         <div class="flex flex-col items-center px-2 mr-auto sm:px-4 sm:flex-row">
           <g-link to="/" class="flex items-center text-ui-primary" title="Home">
             <Logo :width="40" class="text-ui-primary" />
-            <span class="hidden ml-2 text-xl font-black tracking-tighter uppercase sm:block">
+            <!-- <span class="hidden ml-2 text-xl font-black tracking-tighter uppercase sm:block">
               <span style="color: #0C266A">C</span>
               <span style="color: #143486">P</span>
-            </span>
+            </span>-->
           </g-link>
 
-          <div v-if="settings.nav.links.length > 0" class="hidden ml-2 mr-5 sm:block sm:ml-8">
+          <!-- <div v-if="settings.nav.links.length > 0" class="hidden ml-4 mr-5 sm:block sm:ml-8">
             <g-link
               v-for="link in settings.nav.links"
               :key="link.path"
               :to="link.path"
-              class="block p-1 font-medium nav-link text-ui-typo hover:text-ui-primary"
+              class="block p-1 font-medium nav-link uppercase text-ui-typo hover:text-ui-primary"
             >{{ link.title }}</g-link>
-          </div>
+          </div>-->
         </div>
 
         <div class="w-full px-2 sm:px-4 max-w-screen-xs">
@@ -64,12 +64,12 @@
             <GithubIcon size="1.5x" />
           </a>
 
-          <ToggleDarkMode class="ml-2 sm:ml-8">
+          <!-- <ToggleDarkMode class="ml-2 sm:ml-8">
             <template slot="default" slot-scope="{ dark }">
               <MoonIcon v-if="dark" size="1.5x" />
               <SunIcon v-else size="1.5x" />
             </template>
-          </ToggleDarkMode>
+          </ToggleDarkMode>-->
         </div>
       </div>
     </div>

@@ -18,7 +18,7 @@ module.exports = {
     nav: {
       links: [{
         path: '/docs/',
-        title: 'Docs'
+        title: ''
       }, ]
     },
     sidebar: [{
