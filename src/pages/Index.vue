@@ -42,10 +42,10 @@
           </a>
         </div>
         <p class="text-xl font-medium text-center">
-          A decentralised universal basic income protocol based on personal
-          currencies and self-sovereign web-of-trust identities
+          A decentralized universal basic income currency protocol based on
+          personal currencies and self-sovereign web-of-trust identities
           <br />
-          <!-- <strong class="text-ui-primary">Got a minute?</strong> -->
+          <!-- <p class="text-md text-center">The Circles Protocol is governed by the Circles DAO a decentralized autonomous organization. <br>The DAO develops, grows and invests in the UBI-Economy of tomorrow</p> -->
         </p>
 
         <!-- <div class="py-4">
@@ -76,6 +76,22 @@
       <div
         class="pt-8 mx-auto mt-8 border-t md:mt-16 md:pt-16 border-top border-ui-border max-w-screen-sm"
       ></div>
+      <h2
+        class="flex justify-center text-2xl lg:text-4xl pt-12 font-black tracking-tighter border-none text-ui-secondary"
+      >
+        <span style="color: #0C266A">key protocol characteristics</span>
+      </h2>
+
+      <a
+        href="http://aboutcircles.com"
+        class="my-8 flex justify-center text-center"
+      >
+        <span class="border-b border-dashed border-ui-primary text-ui-primary"
+          >The circles protocol is a P2P credit based set of currency rules to
+          standardize and ensure interoperability between ubi networks on a
+          global scale
+        </span>
+      </a>
 
       <div class="bg-white flex justify-center">
         <div class="flex content-start flex-wrap">
@@ -90,11 +106,11 @@
               class="text-xl text-center text-ui-primary my-2 flex flex-wrap
           justify-center content-center font-title uppercase font-bold"
             >
-              1. Create personal currencies
+              1. People Powered Money
             </div>
             <div class="text-gray-600">
-              Create for each human their own personal currency at a fixed rate
-              of 1 unit per day, with a yearly inflation rate of 10%.
+              Each human issues and grows their own personal currency, where the
+              minting rate is tightly coupled to the human time alive
             </div>
           </div>
           <div class="lg:w-1/3 p-6 m-auto content-center text-center">
@@ -108,11 +124,12 @@
               class="text-xl text-center text-ui-primary my-2 flex flex-wrap
           justify-center content-center font-title uppercase font-bold"
             >
-              2. Unique trusted humans
+              2. Self-sovereign identities
             </div>
             <div class="text-gray-600">
-              Build your app on self-sovereign trusted identites through our
-              web-of-trust between real humans.
+              Unique self-sovereign humans verified by web-of-trust networks
+              make the personal currencies interchangeable between real world
+              trust relationships
             </div>
           </div>
           <div class="lg:w-1/3 p-6 m-auto content-center text-center">
@@ -126,11 +143,12 @@
               class="text-xl text-center text-ui-primary my-2 flex flex-wrap
           justify-center content-center font-title uppercase font-bold"
             >
-              3. Grow Your Economy
+              3. Fixed Growth Rate
             </div>
             <div class="text-gray-600">
-              Personal ubi currencies empower your users with the purchasing
-              power to consume your goods and services
+              human life expectancy is used to deduce the monetary growth rate
+              which imply a monetary symmetry, spatially and temporally, between
+              the individuals
             </div>
           </div>
         </div>
@@ -142,7 +160,7 @@
         class="flex justify-center text-2xl lg:text-4xl pt-12 font-black tracking-tighter border-none text-ui-secondary"
       >
         <span style="color: #0C266A"
-          >Apps building on the Circles Protocol</span
+          >Projects building on the Circles Protocol</span
         >
       </h2>
 
@@ -151,11 +169,11 @@
         class="my-8 flex justify-center text-center"
       >
         <span class="border-b border-dashed border-ui-primary text-ui-primary"
-          >Got an idea for an app? Let us know!
+          >Got an idea for an app? Let us know! We are here to help you
+          integrate the Circles Protocol into your project.
         </span>
       </a>
 
-      <!-- <h3 class="text-lg flex justify-center">Apps implemented</h3> -->
       <div class="flex flex-wrap justify-center -mx-4">
         <div
           class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3"
@@ -178,7 +196,7 @@
                 <h1
                   class="title-font font-title text-lg font-medium text-primary mb-3"
                 >
-                  Circles Garden (beta)
+                  Physarum polycephalum (beta)
                 </h1>
                 <p class="leading-relaxed mb-3">
                   First implementation of the Circles Protocol
@@ -218,14 +236,14 @@
                   Omo (alpha)
                 </h1>
                 <p class="leading-relaxed mb-3">
-                  General marketplace for UBI-entrepreneurs
+                  Crowdfunding and Marketplace for entrepreneurs
                 </p>
               </div>
-              <a href="https://dev.omo.earth">
+              <a href="">
                 <div
-                  class="rounded-b py-3 font-bold text-white uppercase text-center bg-ui-primary hover:bg-blue-600 cursor-pointer"
+                  class="rounded-b py-3 font-bold text-white uppercase text-center bg-gray-400"
                 >
-                  Go To Omo
+                  Not active yet
                 </div>
               </a>
             </div>
