@@ -59,11 +59,22 @@ Five minutes later Alice has 5 AliceCoin and Bob joins the system, creating BobC
 Alice transfers her 5 AliceCoin to Bob
 Alice has 0 PersonalCoins and Bob has 5 AliceCoin
 Five minutes later Alice has 5 AliceCoin while Bob has 5 AliceCoin and 5 BobCoin
-Alice has 5 coins total, and Bob has 10 coins total. The difference between their holdings is 5 and Alice has .5 (half) the amount of coins that Bob has.
+Alice has 5 coins total, and Bob has 10 coins total. The difference between their holdings is 5 and Alice has 0.5 (half) the amount of coins that Bob has.
 The issuance rate inflates 100% and is now 2 coins per minute.
 Five minutes later Alice has 15 AliceCoin while Bob has 5 AliceCoin and 15 BobCoin.
-Alice has 15 coins total and Bob has 20 coins total. The difference between their holdings is still 5, but now Alice has .75 (three quarters) the amount of coins that Bob has. The relative difference between their holdings is decreasing.
+Alice has 15 coins total and Bob has 20 coins total. The difference between their holdings is still 5, but now Alice has 0.75 (three quarters) the amount of coins that Bob has. The relative difference between their holdings is decreasing.
 ```
+
+### Issuance and growth rate
+
+The concept of flowing issuance is fundamental, as we acknowledge that humans have a limited life expectancy and that births and deaths of individuals in the economy form continuous flowing circles.
+![Human Flow](https://framapic.org/WAifIBGYQDDg/myfaxrrYVgwL)
+
+Renewal within the flow through life expectancy is used to deduce the monetary growth rate which imply a monetary symmetry, spatially and temporally, between all current living and future individuals for centuries ahead.
+
+### Quantitive and relative units
+
+The circles protocol units can be displayed quantiativly and relatively
 
 ## Trusting Currency
 

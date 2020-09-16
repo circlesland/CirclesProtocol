@@ -67,8 +67,6 @@
         <p class="mt-8 text-center">
           Open Source. AGPL
           <br />
-          <span class="border-b border-dashed border-ui-primary text-ui-primary"
-            >Deployed on xDAI</span
           >.
         </p>
       </div>
@@ -143,12 +141,12 @@
               class="text-xl text-center text-ui-primary my-2 flex flex-wrap
           justify-center content-center font-title uppercase font-bold"
             >
-              3. Fixed Growth Rate
+              3. Symmetric Growth Rate
             </div>
             <div class="text-gray-600">
               human life expectancy is used to deduce the monetary growth rate
               which imply a monetary symmetry, spatially and temporally, between
-              the individuals
+              all living and future individuals
             </div>
           </div>
         </div>
