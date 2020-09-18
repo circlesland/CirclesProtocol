@@ -66,8 +66,6 @@
 
         <p class="mt-8 text-center">
           Open Source. AGPL
-          <br />
-          >.
         </p>
       </div>
 

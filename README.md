@@ -4,3 +4,5 @@
 
 See Documentation at [CirclesProtocol](https://circlesprotocol.org/).
 
+to start
+npm run dev
