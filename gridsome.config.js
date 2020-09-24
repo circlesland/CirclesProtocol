@@ -1,89 +1,101 @@
-// This is where project configuration and plugin options are located. 
+// This is where project configuration and plugin options are located.
 // Learn more: https://gridsome.org/docs/config
 
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'CP',
+  siteName: "CirclesProtocol",
   icon: {
-    favicon: './src/assets/favicon.png',
-    touchicon: './src/assets/favicon.png'
+    favicon: "./src/assets/favicon.png",
+    touchicon: "./src/assets/favicon.png",
   },
-  siteUrl: (process.env.SITE_URL ? process.env.SITE_URL : 'https://example.com'),
+  siteUrl: process.env.SITE_URL ? process.env.SITE_URL : "https://example.com",
   settings: {
     web: process.env.URL_WEB || false,
     twitter: process.env.URL_TWITTER || false,
     github: process.env.URL_GITHUB || false,
     nav: {
-      links: [{
-        path: '/docs/',
-        title: ''
-      }, ]
+      links: [
+        {
+          path: "/docs/",
+          title: "",
+        },
+      ],
     },
-    sidebar: [{
-      name: 'docs',
-      sections: [{
-          title: 'Whitepaper',
-          items: [
-            '/docs/',
-          ]
-        },
-        {
-          title: "Tutorials",
-          items: ["/tutorials/tutorial1/"],
-        },
-        {
-          title: "Development",
-          items: ["/dev/overview/", "/dev/core/", "/dev/contracts/"],
-        },
-        {
-          title: "Contribute to Docs",
-          items: ["/website/intro/", "/website/writing/", "/website/development/"],
-        }
-      ]
-    }]
+    sidebar: [
+      {
+        name: "docs",
+        sections: [
+          {
+            title: "Whitepaper",
+            items: ["/docs/"],
+          },
+          {
+            title: "Tutorials",
+            items: ["/tutorials/tutorial1/"],
+          },
+          {
+            title: "Development",
+            items: ["/dev/overview/", "/dev/core/", "/dev/contracts/"],
+          },
+          {
+            title: "Contribute to Docs",
+            items: [
+              "/website/intro/",
+              "/website/writing/",
+              "/website/development/",
+            ],
+          },
+        ],
+      },
+    ],
   },
-  plugins: [{
-      use: '@gridsome/source-filesystem',
-      options: {
-        baseDir: './content',
-        path: '**/*.md',
-        typeName: 'MarkdownPage',
-        remark: {
-          externalLinksTarget: '_blank',
-          externalLinksRel: ['noopener', 'noreferrer'],
-          plugins: [
-            '@gridsome/remark-prismjs'
-          ]
-        }
-      }
-    },
-
+  plugins: [
     {
-      use: 'gridsome-plugin-tailwindcss',
+      use: "@gridsome/source-filesystem",
       options: {
-        tailwindConfig: './tailwind.config.js',
+        baseDir: "./content/docs/",
+        path: "**/*.md",
+        typeName: "MarkdownPage",
+        remark: {
+          externalLinksTarget: "_blank",
+          externalLinksRel: ["noopener", "noreferrer"],
+          plugins: ["@gridsome/remark-prismjs"],
+        },
+      },
+    },
+    // {
+    //   use: "@gridsome/source-filesystem",
+    //   options: {
+    //     typeName: "Blog",
+    //     path: "./content/blog/**/*.md",
+    //     // refs: {
+    //     //   author: "Author",
+    //     //   tags: {
+    //     //     typeName: "Tag",
+    //     //     create: true,
+    //     //   },
+    //     //   category: {
+    //     //     typeName: "Category",
+    //     //     create: true,
+    //     //   },
+    //     // },
+    //   },
+    // },
+    {
+      use: "gridsome-plugin-tailwindcss",
+      options: {
+        tailwindConfig: "./tailwind.config.js",
         purgeConfig: {
           // Prevent purging of prism classes.
-          whitelistPatternsChildren: [
-            /token$/
-          ]
-        }
-      }
+          whitelistPatternsChildren: [/token$/],
+        },
+      },
     },
-
     {
-      use: '@gridsome/plugin-google-analytics',
-      options: {
-        id: (process.env.GA_ID ? process.env.GA_ID : 'XX-999999999-9')
-      }
+      use: "@gridsome/plugin-sitemap",
+      options: {},
     },
-
-    {
-      use: '@gridsome/plugin-sitemap',
-      options: {}
-    }
-
-  ]
-}
+  ],
+};

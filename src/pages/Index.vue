@@ -196,7 +196,7 @@
                 <h1
                   class="title-font font-title text-lg font-medium text-primary mb-3"
                 >
-                  Physarum polycephalum (beta)
+                  Myxogastria (beta)
                 </h1>
                 <p class="leading-relaxed mb-3">
                   First implementation of the Circles Protocol
@@ -236,7 +236,7 @@
                   Omo (alpha)
                 </h1>
                 <p class="leading-relaxed mb-3">
-                  Crowdfunding and Marketplace for entrepreneurs
+                  Peer 2 Peer Crowdfunding and Marketplace
                 </p>
               </div>
               <a href="">
