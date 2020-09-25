@@ -55,7 +55,7 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
-        baseDir: "./content/docs/",
+        baseDir: "./content/",
         path: "**/*.md",
         typeName: "MarkdownPage",
         remark: {
@@ -65,24 +65,6 @@ module.exports = {
         },
       },
     },
-    // {
-    //   use: "@gridsome/source-filesystem",
-    //   options: {
-    //     typeName: "Blog",
-    //     path: "./content/blog/**/*.md",
-    //     // refs: {
-    //     //   author: "Author",
-    //     //   tags: {
-    //     //     typeName: "Tag",
-    //     //     create: true,
-    //     //   },
-    //     //   category: {
-    //     //     typeName: "Category",
-    //     //     create: true,
-    //     //   },
-    //     // },
-    //   },
-    // },
     {
       use: "gridsome-plugin-tailwindcss",
       options: {
