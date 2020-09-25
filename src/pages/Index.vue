@@ -3,7 +3,8 @@
     <div class="pt-8 md:pt-16">
       <div class="flex flex-col items-center">
         <div class="flex flex-col items-center mb-2 text-ui-primary">
-          <Logo :width="80" />
+          <img src="banner.png" width="50%" style="margin-bottom: 5rem" />
+          <!-- <Logo :width="80" /> -->
           <h2 class="text-3xl text-6xl font-black tracking-tighter border-none text-ui-secondary">
             <span style="color: #0C266A">Circles</span>
             <span style="color: #143486">Protocol</span>
