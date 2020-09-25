@@ -4,9 +4,7 @@
       <div class="flex flex-col items-center">
         <div class="flex flex-col items-center mb-2 text-ui-primary">
           <Logo :width="80" />
-          <h2
-            class="text-3xl text-6xl font-black tracking-tighter border-none text-ui-secondary"
-          >
+          <h2 class="text-3xl text-6xl font-black tracking-tighter border-none text-ui-secondary">
             <span style="color: #0C266A">Circles</span>
             <span style="color: #143486">Protocol</span>
           </h2>
@@ -15,30 +13,22 @@
           <a href="/docs/">
             <h1
               class="text-lg text-center lg:text-xl uppercase mr-4 hover:text-white hover:bg-ui-primary text-ui-primary border border-ui-primary rounded py-1 px-3"
-            >
-              Whitepaper
-            </h1>
+            >Whitepaper</h1>
           </a>
           <a href="http://aboutcircles.com">
             <h1
               class="text-lg text-center lg:text-xl uppercase mr-4 hover:text-white hover:bg-ui-primary text-ui-primary border border-ui-primary rounded py-1 px-3"
-            >
-              Forum
-            </h1>
+            >Forum</h1>
           </a>
           <a href="https://dashboard.joincircles.net">
             <h1
               class="text-lg text-center lg:text-xl uppercase mr-4 hover:text-white hover:bg-ui-primary text-ui-primary border border-ui-primary rounded py-1 px-3"
-            >
-              Dashboard
-            </h1>
+            >Dashboard</h1>
           </a>
           <a href="https://github.com/CirclesUBI">
             <h1
               class="text-lg text-center lg:text-xl uppercase mr-4 hover:text-white hover:bg-ui-primary text-ui-primary border border-ui-primary rounded py-1 px-3"
-            >
-              GitHub
-            </h1>
+            >GitHub</h1>
           </a>
         </div>
         <p class="text-xl font-medium text-center">
@@ -67,9 +57,7 @@
         <p class="mt-8 text-center">
           Open Source. AGPL
           <br />
-          <span class="border-b border-dashed border-ui-primary text-ui-primary"
-            >Deployed on xDAI</span
-          >.
+          <span class="border-b border-dashed border-ui-primary text-ui-primary">Deployed on xDAI</span>.
         </p>
       </div>
 
@@ -79,15 +67,12 @@
       <h2
         class="flex justify-center text-2xl lg:text-4xl pt-12 font-black tracking-tighter border-none text-ui-secondary"
       >
-        <span style="color: #0C266A">key protocol characteristics</span>
+        <span style="color: #0C266A">What is the protocol about?</span>
       </h2>
 
-      <a
-        href="http://aboutcircles.com"
-        class="my-8 flex justify-center text-center"
-      >
-        <span class="border-b border-dashed border-ui-primary text-ui-primary"
-          >The circles protocol is a P2P credit based set of currency rules to
+      <a href="http://aboutcircles.com" class="my-8 flex justify-center text-center">
+        <span class="border-b border-dashed border-ui-primary text-ui-primary">
+          The circles protocol is a P2P credit based set of currency rules to
           standardize and ensure interoperability between ubi networks on a
           global scale
         </span>
@@ -103,11 +88,8 @@
               alt="image"
             />
             <div
-              class="text-xl text-center text-ui-primary my-2 flex flex-wrap
-          justify-center content-center font-title uppercase font-bold"
-            >
-              1. People Powered Money
-            </div>
+              class="text-xl text-center text-ui-primary my-2 flex flex-wrap justify-center content-center font-title uppercase font-bold"
+            >1. People Powered Money</div>
             <div class="text-gray-600">
               Each human issues and grows their own personal currency, where the
               minting rate is tightly coupled to the human time alive
@@ -121,11 +103,8 @@
               alt="image"
             />
             <div
-              class="text-xl text-center text-ui-primary my-2 flex flex-wrap
-          justify-center content-center font-title uppercase font-bold"
-            >
-              2. Self-sovereign identities
-            </div>
+              class="text-xl text-center text-ui-primary my-2 flex flex-wrap justify-center content-center font-title uppercase font-bold"
+            >2. Self-sovereign identities</div>
             <div class="text-gray-600">
               Unique self-sovereign humans verified by web-of-trust networks
               make the personal currencies interchangeable between real world
@@ -140,11 +119,8 @@
               alt="image"
             />
             <div
-              class="text-xl text-center text-ui-primary my-2 flex flex-wrap
-          justify-center content-center font-title uppercase font-bold"
-            >
-              3. Fixed Growth Rate
-            </div>
+              class="text-xl text-center text-ui-primary my-2 flex flex-wrap justify-center content-center font-title uppercase font-bold"
+            >3. Symmetric Growth</div>
             <div class="text-gray-600">
               human life expectancy is used to deduce the monetary growth rate
               which imply a monetary symmetry, spatially and temporally, between
@@ -159,28 +135,18 @@
       <h2
         class="flex justify-center text-2xl lg:text-4xl pt-12 font-black tracking-tighter border-none text-ui-secondary"
       >
-        <span style="color: #0C266A"
-          >Projects building on the Circles Protocol</span
-        >
+        <span style="color: #0C266A">Projects building on the Circles Protocol</span>
       </h2>
 
-      <a
-        href="http://aboutcircles.com"
-        class="my-8 flex justify-center text-center"
-      >
-        <span class="border-b border-dashed border-ui-primary text-ui-primary"
-          >Got an idea for an app? Let us know! We are here to help you
-          integrate the Circles Protocol into your project.
-        </span>
+      <a href="http://aboutcircles.com" class="my-8 flex justify-center text-center">
+        <span
+          class="border-b border-dashed border-ui-primary text-ui-primary"
+        >Got an idea for an app? Let us know!</span>
       </a>
 
       <div class="flex flex-wrap justify-center -mx-4">
-        <div
-          class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3"
-        >
-          <div
-            class="rounded border border-gray-300 text-gray-700 w-full bg-white"
-          >
+        <div class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
+          <div class="rounded border border-gray-300 text-gray-700 w-full bg-white">
             <div class="h-full border-1 border-gray-200 overflow-hidden">
               <img
                 class="rounded-t lg:h-64 md:h-48 w-full object-cover object-center"
@@ -190,34 +156,22 @@
               <div class="p-6">
                 <h2
                   class="tracking-widest text-xs title-font font-title uppercase text-gray-500 mb-1"
-                >
-                  Wallet
-                </h2>
+                >Wallet</h2>
                 <h1
                   class="title-font font-title text-lg font-medium text-primary mb-3"
-                >
-                  Myxogastria (beta)
-                </h1>
-                <p class="leading-relaxed mb-3">
-                  First implementation of the Circles Protocol
-                </p>
+                >Myxogastria (beta)</h1>
+                <p class="leading-relaxed mb-3">First implementation of the Circles Protocol</p>
               </div>
               <a href="https://circles.garden">
                 <div
                   class="rounded-b py-3 font-bold text-white uppercase text-center bg-ui-primary hover:bg-blue-600 cursor-pointer"
-                >
-                  Go To Circles Garden
-                </div>
+                >Go To Circles Garden</div>
               </a>
             </div>
           </div>
         </div>
-        <div
-          class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3"
-        >
-          <div
-            class="rounded border border-gray-300 text-gray-700 w-full bg-white"
-          >
+        <div class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
+          <div class="rounded border border-gray-300 text-gray-700 w-full bg-white">
             <div class="h-full border-1 border-gray-200 overflow-hidden">
               <img
                 class="rounded-t lg:h-64 md:h-48 w-full object-cover object-center"
@@ -227,26 +181,90 @@
               <div class="p-6">
                 <h2
                   class="tracking-widest text-xs title-font font-title uppercase text-gray-500 mb-1"
-                >
-                  Wallet + Marketplace
-                </h2>
-                <h1
-                  class="title-font font-title text-lg font-medium text-primary mb-3"
-                >
-                  Omo (alpha)
-                </h1>
-                <p class="leading-relaxed mb-3">
-                  Peer 2 Peer Crowdfunding and Marketplace
-                </p>
+                >Wallet + Marketplace</h2>
+                <h1 class="title-font font-title text-lg font-medium text-primary mb-3">Omo (alpha)</h1>
+                <p class="leading-relaxed mb-3">Peer 2 Peer Crowdfunding and Marketplace</p>
               </div>
-              <a href="">
+              <a href>
                 <div
                   class="rounded-b py-3 font-bold text-white uppercase text-center bg-gray-400"
-                >
-                  Not active yet
-                </div>
+                >Not active yet</div>
               </a>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="pt-8 mx-auto mt-8 border-t md:mt-16 md:pt-16 border-top border-ui-border max-w-screen-sm"
+      ></div>
+      <h2
+        class="flex justify-center text-2xl lg:text-4xl pt-12 font-black tracking-tighter border-none text-ui-secondary"
+      >
+        <span style="color: #0C266A">Key protocol characteristics</span>
+      </h2>
+
+      <!-- <a href="http://aboutcircles.com" class="my-8 flex justify-center text-center">
+        <span class="border-b border-dashed border-ui-primary text-ui-primary">
+          The circles protocol is a P2P credit based set of currency rules to
+          standardize and ensure interoperability between ubi networks on a
+          global scale
+        </span>
+      </a>-->
+
+      <div class="bg-white flex justify-center">
+        <div class="flex content-start flex-wrap">
+          <div class="lg:w-1/3 p-6 m-auto content-center text-center">
+            <div
+              class="text-xl text-center text-ui-primary my-2 flex flex-wrap justify-center content-center font-title uppercase font-bold"
+            >Credit based</div>
+            <div
+              class="text-gray-600"
+            >In traditional debt-based currencies one sells goods, borrows money, or invests working power to receive money. With Circles, one receives money unconditionally to engage with their community, creating value through offering goods or services.</div>
+          </div>
+          <div class="lg:w-1/3 p-6 m-auto content-center text-center">
+            <div
+              class="text-xl text-center text-ui-primary my-2 flex flex-wrap justify-center content-center font-title uppercase font-bold"
+            >Decentralized</div>
+            <div
+              class="text-gray-600"
+            >A worldwide basic income is something so powerful that no single entity should have control over the money or its recipients. Using blockchain technology, Circles is independent of any central issuing authority or institution.</div>
+          </div>
+          <div class="lg:w-1/3 p-6 m-auto content-center text-center">
+            <div
+              class="text-xl text-center text-ui-primary my-2 flex flex-wrap justify-center content-center font-title uppercase font-bold"
+            >Resilience</div>
+            <div
+              class="text-gray-600"
+            >Circles runs on the blockchain, a secure, decentralised, autonomously managed database. Since the system's money emerges from a network of peer-to-peer relationships, it maintains stability on a local level, regardless of the national or global scale.</div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white flex justify-center">
+        <div class="flex content-start flex-wrap">
+          <div class="lg:w-1/3 p-6 m-auto content-center text-center">
+            <div
+              class="text-xl text-center text-ui-primary my-2 flex flex-wrap justify-center content-center font-title uppercase font-bold"
+            >P2P Relationships</div>
+            <div
+              class="text-gray-600"
+            >Circles runs on the blockchain, a secure, decentralised, autonomously managed database. Since the system's money emerges from a network of peer-to-peer relationships, it maintains stability on a local level, regardless of the national or global scale.</div>
+          </div>
+          <div class="lg:w-1/3 p-6 m-auto content-center text-center">
+            <div
+              class="text-xl text-center text-ui-primary my-2 flex flex-wrap justify-center content-center font-title uppercase font-bold"
+            >Seigniorage</div>
+            <div
+              class="text-gray-600"
+            >Seigniorage is the profit made from the difference between the production costs and the value of money. As Circles is a credit-based currency that costs little to create, you retain most of this value as first spender.</div>
+          </div>
+          <div class="lg:w-1/3 p-6 m-auto content-center text-center">
+            <div
+              class="text-xl text-center text-ui-primary my-2 flex flex-wrap justify-center content-center font-title uppercase font-bold"
+            >Hoarding Resistance</div>
+            <div
+              class="text-gray-600"
+            >Circles has an inbuilt inflation target of 10% per annum to discourage hoarding. This also increases the velocity of money in circulation, creating more opportunities for exchange and economic activity.</div>
           </div>
         </div>
       </div>
