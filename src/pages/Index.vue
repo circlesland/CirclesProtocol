@@ -183,13 +183,13 @@
                 <h2
                   class="tracking-widest text-xs title-font font-title uppercase text-gray-500 mb-1"
                 >Wallet</h2>
-                <h1 class="title-font font-title text-lg font-medium text-primary mb-3">Circles Lite</h1>
+                <h1 class="title-font font-title text-lg font-medium text-primary mb-3">Circles Lite (alpha)</h1>
                 <p class="leading-relaxed mb-3">Simple IPFS DAPP Circles Client</p>
               </div>
               <a href>
                 <div
                   class="rounded-b py-3 font-bold text-white uppercase text-center bg-gray-400"
-                >Not active yet</div>
+                >(Use at own risk)</div>
               </a>
             </div>
           </div>
