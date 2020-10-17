@@ -13,46 +13,40 @@ module.exports = {
   siteUrl: process.env.SITE_URL ? process.env.SITE_URL : "https://example.com",
   settings: {
     web: process.env.URL_WEB || false,
-    twitter: process.env.URL_TWITTER || false,
-    github: process.env.URL_GITHUB || false,
+    twitter: "https://twitter.com/CirclesUBI",
+    github: "https://github.com/CirclesUBI",
     nav: {
-      links: [
+      links: [{
+        path: "/docs/",
+        title: "",
+      }, ],
+    },
+    sidebar: [{
+      name: "docs",
+      sections: [{
+          title: "Whitepaper",
+          items: ["/docs/"],
+        },
         {
-          path: "/docs/",
-          title: "",
+          title: "Tutorials",
+          items: ["/tutorials/tutorial1/"],
+        },
+        {
+          title: "Development",
+          items: ["/dev/overview/", "/dev/core/", "/dev/contracts/"],
+        },
+        {
+          title: "Contribute to Docs",
+          items: [
+            "/website/intro/",
+            "/website/writing/",
+            "/website/development/",
+          ],
         },
       ],
-    },
-    sidebar: [
-      {
-        name: "docs",
-        sections: [
-          {
-            title: "Whitepaper",
-            items: ["/docs/"],
-          },
-          {
-            title: "Tutorials",
-            items: ["/tutorials/tutorial1/"],
-          },
-          {
-            title: "Development",
-            items: ["/dev/overview/", "/dev/core/", "/dev/contracts/"],
-          },
-          {
-            title: "Contribute to Docs",
-            items: [
-              "/website/intro/",
-              "/website/writing/",
-              "/website/development/",
-            ],
-          },
-        ],
-      },
-    ],
+    }, ],
   },
-  plugins: [
-    {
+  plugins: [{
       use: "@gridsome/source-filesystem",
       options: {
         baseDir: "./content/",

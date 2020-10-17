@@ -16,27 +16,27 @@
               class="text-lg text-center lg:text-xl uppercase mr-4 hover:text-white hover:bg-ui-primary text-ui-primary border border-ui-primary rounded py-1 px-3"
             >Whitepaper</h1>
           </a>
-          <a href="http://aboutcircles.com">
-            <h1
-              class="text-lg text-center lg:text-xl uppercase mr-4 hover:text-white hover:bg-ui-primary text-ui-primary border border-ui-primary rounded py-1 px-3"
-            >Forum</h1>
-          </a>
-          <a href="https://dashboard.joincircles.net">
+                <a href="https://dashboard.circles.garden">
             <h1
               class="text-lg text-center lg:text-xl uppercase mr-4 hover:text-white hover:bg-ui-primary text-ui-primary border border-ui-primary rounded py-1 px-3"
             >Dashboard</h1>
           </a>
-          <a href="https://github.com/CirclesUBI">
+          <a href="https://t.me/CirclesUBI">
             <h1
               class="text-lg text-center lg:text-xl uppercase mr-4 hover:text-white hover:bg-ui-primary text-ui-primary border border-ui-primary rounded py-1 px-3"
-            >GitHub</h1>
+            >Chat</h1>
           </a>
+              <!-- <a href="http://aboutcircles.com">
+            <h1
+              class="text-lg text-center lg:text-xl uppercase mr-4 hover:text-white hover:bg-ui-primary text-ui-primary border border-ui-primary rounded py-1 px-3"
+            >Forum</h1>
+          </a> -->
         </div>
         <p class="text-xl font-medium text-center">
           A decentralized universal basic income currency protocol based on
           personal currencies and self-sovereign web-of-trust identities
           <br />
-          <!-- <p class="text-md text-center">The Circles Protocol is governed by the Circles DAO a decentralized autonomous organization. <br>The DAO develops, grows and invests in the UBI-Economy of tomorrow</p> -->
+          <!-- <p class="text-md text-center">The Circles Protocol will governed by the Circles DAO a decentralized autonomous organization. <br>The DAO develops, grows and invests in the UBI-Economy of tomorrow</p> -->
         </p>
 
         <!-- <div class="py-4">
@@ -182,9 +182,9 @@
               <div class="p-6">
                 <h2
                   class="tracking-widest text-xs title-font font-title uppercase text-gray-500 mb-1"
-                >Wallet + Marketplace</h2>
-                <h1 class="title-font font-title text-lg font-medium text-primary mb-3">Omo (alpha)</h1>
-                <p class="leading-relaxed mb-3">Peer 2 Peer Crowdfunding and Marketplace</p>
+                >Wallet</h2>
+                <h1 class="title-font font-title text-lg font-medium text-primary mb-3">Circles Lite</h1>
+                <p class="leading-relaxed mb-3">Simple IPFS DAPP Circles Client</p>
               </div>
               <a href>
                 <div
